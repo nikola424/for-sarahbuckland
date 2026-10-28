@@ -1,0 +1,9 @@
+/* Landing page type: DM Sans + Roboto. Loaded after brand.css. */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,600;9..40,700&family=Roboto:wght@400;500;700&display=swap");
+:root {
+  --display: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --sans: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+h1, h2, h3, .brand__word { font-family: var(--display); font-weight: 700 !important; font-style: normal; letter-spacing: -.01em; }
+h1 em, h2 em, h3 em, h1 i, h2 i, h3 i { font-style: normal; color: var(--accent-text); }
+.email__subject { font-family: var(--display); font-weight: 700; }
